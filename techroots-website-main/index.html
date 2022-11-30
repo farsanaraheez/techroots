@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <title>TechRoots</title>
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-digimedia-v3.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+
+
+
+    <!--
+TemplateMo 568 DigiMedia
+
+https://templatemo.com/tm-568-digimedia
+
+-->
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+
+        footer {
+            background-color: #219f5c;
+            background-image: none;
+            margin-top: 50px !important;
+        }
+
+        .mx-auto {
+            margin-right: 62px !important;
+            margin-left: auto !important;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: #000;
+        }
+
+        .navbar-brand {
+            margin-left: 70px;
+        }
+
+        .nav-item {
+            padding: 0px 25px;
+        }
+
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #219f5c;
+        }
+
+        .navbar-light .navbar-nav .nav-link.active,
+        .navbar-light .navbar-nav .show>.nav-link {
+            color: #219f5c !important;
+        }
+
+        #banner {
+            width: 100%;
+            height: 550px;
+            background-image: url(Assets/images/banr1.webp);
+            background-position: center;
+            padding: 140px 0px 90px;
+        }
+
+        .banr-title {
+            margin-top: 60px;
+
+        }
+
+        .banr-title h6,
+        .banr-title h2 {
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+        .banr-title h6 {
+            line-height: 10px;
+            font-size: 20px;
+        }
+
+        .banr-title h2 {
+            font-size: 50px;
+        }
+
+        .header-area .main-nav .nav li:last-child a {
+            color: #fff;
+        }
+
+        .btn-success {
+            background-color: #219f5c;
+            border-radius: 5px;
+            /* padding: 10px 20px; */
+
+        }
+
+        .services-sec {
+            padding: 80px 0 50px;
+            overflow: hidden;
+        }
+
+        .section-title {
+            padding-bottom: 30px;
+        }
+
+        .section-title h2 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            position: relative;
+        }
+
+        .section-title h2::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: #009961;
+            bottom: 0;
+            left: 0;
+        }
+
+        .section-title p {
+            margin-bottom: 0;
+            color: #777777;
+            font-size: 15px;
+        }
+
+        .services-sec .icon-box {
+            padding: 60px 30px;
+            transition: all ease-in-out 0.3s;
+            background: #fefefe;
+            box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+            border-radius: 18px;
+            border-bottom: 5px solid #fff;
+        }
+
+        .services-sec .icon-box h4 {
+            font-weight: 700;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .services-sec .icon-box p {
+            line-height: 24px;
+            font-size: 14px;
+            color: #000;
+            margin-bottom: 0;
+        }
+
+        .services-sec .icon-box .icon {
+            width: 64px;
+            height: 64px;
+            background: #009961;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            transition: ease-in-out 0.3s;
+            color: #fff;
+        }
+
+        .services-sec .icon-box .icon i {
+            font-size: 30px;
+        }
+
+        #about {
+            padding-top: 90px;
+        }
+
+
+
+
+        /* jihugf */
+        
+
+       
+        .sec-heading h2 {
+            font-weight: 700;
+            color: #000;
+            text-transform: capitalize;
+            margin: 10px 0px 20px;
+        }
+
+        .sec-heading p {
+            font-family: 'Barlow', sans-serif;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #777777;
+            margin-bottom: 30px;
+        }
+
+        .why-choose-single {
+            overflow: hidden;
+            margin: 10px 0 22px;
+        }
+
+        .why-choose-single h4 {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+            color: #777777;
+        }
+
+        .why-choose-single .icon {
+            width: 5%;
+            float: left;
+        }
+
+        .why-choose-single .icon i {
+            color: #00897b;
+        }
+
+        .filter-content {
+            padding: 60px 0px;
+        }
+
+       .why-choose-single .btn{
+        margin-top: 30px;
+        box-shadow:0 12px 20px 0 rgb(4 20 43 / 12%);
+        background-color: #fff;
+        color: #00897b;
+        border: 1px solid #00897b;
+       }
+       .circle-sec{
+        margin: 100px 0px;
+       }
+        @media only screen and (max-width:476px) {
+            .banr-title h2 {
+                font-size: 37px;
+            }
+
+            .services-sec {
+                padding: 40px 0 50px;
+                overflow: hidden;
+            }
+
+            .filter-content{
+                padding: 60px 0 30px;
+            }
+            .sec-heading{
+                margin-top: 30px;
+            }
+            .circle-sec{
+        margin: 20px 0px;
+       }
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+
+    <!-- ======header====== -->
+    <section id="header">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top ">
+            <div class="container-fluid">
+
+                <a href="index.html" class="navbar-brand">
+
+                    <img src="assets/logo/techroots-new-green.png" width="70" height="70" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav mx-auto">
+
+                        <li class="nav-item scroll-to-section">
+                            <a class="nav-link " aria-current="page" href="#banner">Home</a>
+                        </li>
+                        <li class="nav-item scroll-to-section">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+
+
+                        <li class="nav-item scroll-to-section">
+                            <a class="nav-link " href="#services">Services</a>
+                        </li>
+                        <li class="nav-item scroll-to-section">
+                            <a class="nav-link " href="#products">Products</a>
+                        </li>
+
+
+
+                        <div>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="modal"
+                                data-bs-target="#myModal" style="background-color:#219f5c ;border: none;">Request
+                                Demo</button>
+                        </div>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- ***** Header Area End ***** -->
+
+
+    <!-- section ends -->
+    <section id="banner" class="banner-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 banr-title">
+                    <h6>TechRoots</h6>
+                    <h2>We bring technology to the <br>roots of your business</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about starts -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us </h2>
+                <p>We are an IT services and consulting company operating in Belgium. Our engineers are excellent
+                    software craftsmen.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-left-image  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img src="assets/images/img1.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 circle-sec">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-4">
+                            <div class="skill-item first-skill-item wow fadeIn" data-wow-duration="1s"
+                                data-wow-delay="0s">
+                                <div class="progress" data-percentage="100">
+                                    <span class="progress-left">
+                                        <span class="progress-bar"></span>
+                                    </span>
+                                    <span class="progress-right">
+                                        <span class="progress-bar"></span>
+                                    </span>
+                                    <div class="progress-value">
+                                        <div>
+                                            100%<br>
+                                            <span>Coding</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-4">
+                            <div class="skill-item second-skill-item wow fadeIn" data-wow-duration="1s"
+                                data-wow-delay="0s">
+                                <div class="progress" data-percentage="100">
+                                    <span class="progress-left">
+                                        <span class="progress-bar"></span>
+                                    </span>
+                                    <span class="progress-right">
+                                        <span class="progress-bar"></span>
+                                    </span>
+                                    <div class="progress-value">
+                                        <div>
+                                            100%<br>
+                                            <span>Testing</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-4">
+                            <div class="skill-item third-skill-item wow fadeIn" data-wow-duration="1s"
+                                data-wow-delay="0s">
+                                <div class="progress" data-percentage="100">
+                                    <span class="progress-left">
+                                        <span class="progress-bar"></span>
+                                    </span>
+                                    <span class="progress-right">
+                                        <span class="progress-bar"></span>
+                                    </span>
+                                    <div class="progress-value">
+                                        <div>
+                                            100%<br>
+                                            <span>Operations</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- services starts -->
+
+    <section id="services" class="services-sec">
+        <div class="container">
+            <div class="section-title">
+                <h2>Services</h2>
+                <p>Leverage our expertise in custom software engineering to achieve your business goals and disrupt your
+                    industry. <br>Our outsourcing software development services are scalable, robust and built using
+                    quality
+                    engineering .</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fa fa-globe"></i></div>
+                        <h4>App Development</h4>
+                        <p>We offer custom software development services specifically designed to meet business goals at
+                            reduced
+                            costs. As an adaptive software development services company, we deliver software solutions
+                            that improve
+                            enterprises’ productivity and strengthen their relationships with customers. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fa fa-desktop"></i></div>
+                        <h4>Web Development</h4>
+                        <p>We offer a variety of web-based offshore software development services from creating mobile
+                            web
+                            development solutions and responsive website designs to building custom e-commerce web apps
+                            using latest
+                            web technologies..</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fa fa-database"></i></div>
+                        <h4>Full Stack Development</h4>
+                        <p>We build custom app solutions from scratch to cater to the unique business needs of
+                            enterprises and
+                            ensure their seamless integration with existing environments and systems.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- serives ends -->
+    <!-- product starts -->
+
+    <section id="products" class="portfolio section">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Our Latest Works</h2>
+                <p>Techroots designs and develops mobile and web apps that delight your users and grow your business. We
+                    work with
+                    individuals<br> and organizations to create products and help them to market to the target audience.
+                </p>
+            </div>
+
+
+
+            <div class="filter-content">
+                <div class="row all corporate">
+                    <div class="col-lg-7">
+
+
+
+                        <div class="row">
+                            <div class="col-md-6 col-lg-4 item">
+                                <a class="lightbox" href="">
+                                    <img class="img-fluid image scale-on-hover" src="assets/images/img5.webp">
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-4 item">
+                                <a class="lightbox" href="">
+                                    <img class="img-fluid image scale-on-hover" src="assets/images/img7.webp">
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-4 item">
+                                <a class="lightbox" href="">
+                                    <img class="img-fluid image scale-on-hover" src="assets/images/img6.webp">
+                                </a>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5">
+
+                        <div class="sec-heading">
+                            <a href="https://apps.apple.com/be/app/mbiz-suite/id1611389459"><img
+                                    src="Assets/images/img4.webp" alt="" style="width:40px;height:40px;"></a>
+                            <h2>MBiz Suite </h2>
+                            <p>This app is for freelancers and small businesses to manage their business and book
+                                keeping. These are the features that we provide:</p>
+                        </div>
+                        <div class="why-choose-cont">
+                            <!--start why choose single-->
+                            <div class="why-choose-single">
+                                <div class="icon">
+                                    <i class="fa fa-check-square"></i>
+                                </div>
+                                <div class="cont">
+                                    <h4>Create and manage invoices
+                                    </h4>
+                                </div>
+                            </div>
+                            <!--end why choose single-->
+                            <!--start why choose single-->
+                            <div class="why-choose-single">
+                                <div class="icon">
+                                    <i class="fa fa-check-square"></i>
+                                </div>
+                                <div class="cont">
+                                    <h4> Share invoices (as pdf) to clients and customers via Email, WhatsApp, etc).
+                                    </h4>
+                                </div>
+                                <a href="https://apps.apple.com/be/app/mbiz-suite/id1611389459" type="button"
+                                    class="btn btn-light"
+                                    >Learn
+                                    More</a>
+                            </div>
+                            <!--end why choose single-->
+                            <!--start why choose single-->
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footr starts -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright © 2022 TechRoots. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+
+    <!-- gallery -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script> -->
+
+    <script>
+
+        // gallery
+        // baguetteBox.run('.grid-gallery', {
+        //     animation: 'slideIn'
+        // });
+
+    </script>
+
+
+
+</body>
+
+</html>
